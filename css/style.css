@@ -1,0 +1,149 @@
+@font-face {
+    font-family: "Merriweather-LightItalic";
+    src: url(../fonts/Merriweather-LightItalic.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(../fonts/Roboto-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "myFont";
+    src: url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap') format("truetype");
+}
+
+#changeText {
+    color: rgb(7, 202, 72);
+    font-family: "Merriweather-LightItalic", sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__item a {
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 400;
+    letter-spacing: .04em;
+    color: #989696;
+    text-decoration: none;
+    margin-right: 43px;
+}
+
+.menu__item:last-child a {
+    margin-right: 0;
+}
+
+.logo {
+    margin: 0 16px;
+}
+
+.active a {
+    color: #000;
+}
+
+.header__content {
+    text-align: center;
+}
+
+.header__text {
+    font-family: "Merriweather-LightItalic", serif;
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 0.03em;
+    color: #988;
+    margin: 20px auto 43px;
+}
+
+.header__title {
+    font-family: "myFont", cursive;
+    line-height: 41px;
+    font-size: 44px;
+    font-weight: 400;
+    letter-spacing: .02em;
+    color: #1d1e1f;
+    margin: 207px auto 4px;
+}
+
+.header__button {
+    line-height: 17px;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: .04em;
+    color: #000;
+    text-decoration: none;
+    width: 188px;
+    height: 57px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 206px;
+}
+
+.about {
+    background: #1d1d1d;
+    height: 1129px;
+    padding-top: 128px;
+    padding-bottom: 271px;
+    background: #1d1d1d;
+}
+.about__inner {
+    display: grid;
+    grid-template-rows: max-content max-content;
+    grid-template-columns: max-content max-content;
+    grid-gap: 128px;
+    place-content: center center;
+}
+.about__item {
+    width: 417px;
+    height: 276px;
+    background: #181818;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.about_year {
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #fefefe;
+    margin-bottom: 27px;
+}
+.about__text {
+    font-family: "Roboto-Regular", serif;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    color: #b7b7b7;
+}
